@@ -37,7 +37,35 @@ body {
 
 .nabidka {
   background-color: white;
+  margin: 3rem;
   margin-right: auto;
   margin-left: auto;
   width: 900px;
+  padding: 2rem;
+}
+
+.nabidka--nadpis,
+.nabidka--popis {
+  text-align: center;
+}
+
+.nabidka--obrazky {
+  width: 100%;
+  display: flex;
+}
+
+.nabidka--obrazky img {
+  display: inline-block;
+  width: 30%;
+  margin: 1rem;
+}
+
+.nabidka--charakteristika {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nabidka--charakteristika p {
+  width: 50%;
 }
